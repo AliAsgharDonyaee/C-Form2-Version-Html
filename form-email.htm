@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Project</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body class="h-screen w-screen">
+    <section id="bg" class="h-full w-full bg-[url('./Image/image.jpg')] bg-local bg-no-repeat bg-cover">
+        <section id="¯\_(ツ)_/¯" class="p-6 w-full md:w-1/2 lg:w-1/3 h-full bg-purple-900">
+            <header id="header" class="w-full flex">
+                <nav id="email-address" class="mr-5 text-center">
+                    <a href="#" class="px-2 text-purple-600 hover:text-white hover:border-b-2 hover:border-orange-300">Email</a>
+                </nav>
+                <nav id="createAccount-address" class="ml-5 text-center">
+                    <a href="#" class="px-2 text-purple-600 hover:text-white hover:border-b-2 hover:border-orange-300">Create Account</a>
+                </nav>
+            </header>
+            <article id="section-form" class="grid grid-rows-7 gap-y-4 h-full w-full">
+                <div id="texts-form" class="row-span-1 flex flex-wrap justify-start items-center w-full h-full">
+                    <div class="">
+                        <h1 id="text-form" class="mb-4 text-5xl text-white">Welcome Codawin</h1>
+                        <p id="paragraph-form" class="text-purple-400">I have't account? <a href="#" class="text-orange-300">Sign up</a></p>
+                    </div>
+                </div>
+                <form action="submit" id="inputs-form" class="row-span-4 w-full h-full">
+                    <div class="grid grid-rows-4 gap-y-2 w-full h-[70%]">
+                        <div class="row-span-1 justify-start items-center bg-violet-800 p-6 w-full h-full group transition hover:border-l-4 hover:border-orange-300">
+                            <p class="text-white text-opacity-60 group-hover:ml-[-4px]">Email Address</p>
+                            <input type="text" name="Email" id="input-email" placeholder="info@gmail.com" class=" bg-inherit w-full h-3/5 text-white tracking-wide placeholder:text-white placeholder:text-opacity-30 group-hover:ml-[-4px]">
+                        </div>
+                        <div class="row-span-1 justify-start items-center bg-violet-800 p-6 w-full h-full group transition hover:border-l-4 hover:border-orange-300">
+                            <p class="text-white text-opacity-60 group-hover:ml-[-4px]">Password</p>
+                            <input type="text" name="Email" id="input-email" placeholder="*****" class=" bg-inherit w-full h-3/5 text-white tracking-wide placeholder:text-white placeholder:text-opacity-30 group-hover:ml-[-4px]">
+                        </div>
+                        <div class="row-span-1 flex justify-between ">
+                            <div id="check" class="text-white">
+                                <input type="checkbox" name="remember-me" id="remember-me" class="h-4 w-4">
+                                <label for="Remember Me!">Remember Me!</label>
+                            </div>
+                            <div>
+                                <a href="#" class="text-purple-400">Forgot Password?</a>
+                            </div>
+                        </div>
+                        <div class="row-span-1 lg:w-1/2">
+                            <button type="submit" class="w-full h-1/2 bg-orange-400 text-white font-bold shadow-lg shadow-orange-300">Submit</button>
+                        </div>
+                    </div>
+                </form>
+                <div id="social-form" class="row-span-1 flex justify-around w-full h-full">
+                    <a href="facebook" class="text-purple-400 hover:text-white">FaceBook</a>
+                    <a href="Twitter" class="text-purple-400 hover:text-white">Twitter</a>
+                    <a href="Instagram" class="text-purple-400 hover:text-white">Instagram</a>
+                </div>
+            </article>
+        </section>
+    </section>
+</body>
+</html>
